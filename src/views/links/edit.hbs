@@ -1,0 +1,27 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/links/guardaredicion" method="POST">
+                        <div class="form-group">
+                            <input type="text" value={{editable.title}} class='form-control' name="title" placeholder="Title" autofocus>
+                        </div>   
+                        <div class="form-group">
+                            <input type="url" value={{editable.url}} name="url" placeholder="URL" class='form-control'>
+                        </div>   
+                        <div class="form-group">
+                            <textarea name="description" rows="2" class='form-control' placeholder="Description">{{editable.description}}</textarea>
+                        </div>
+                        <div class="form-group">
+                            <input style="display: none;" name='id' value={{editable.id}}>
+                        </div> 
+                        <div class="form-group">
+                            <button class="btn btn-success btn-block"> Save</button>
+                        </div>              
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
