@@ -1,8 +1,10 @@
 # favoriteLinks
 ## CRUD, mysql, handlebars, express 
 
-https://youtu.be/qJ5R9WTW0_E
+https://youtu.be/qJ5R9WTW0_E   mire hasta el minuto 2:11:30
 
+
+Estructura de keys.js
 ```
 module.exports = {
     database: {
